@@ -1,0 +1,32 @@
+class Shoe  
+{   public String getName(int id)  
+    {   if(id==1)  return("Shoes");
+        if(id==2)  return("Girl's shoes");
+        if(id==3)  return("Boots");
+        return  ("Unknow");
+    }
+}
+class Bread
+{   public String getName(int id)
+    {   if(id==1)  return("White");
+        if(id==2)  return("Black");
+        if(id==3)  return("Loaf");
+        return  ("Unknow");
+    }
+ }
+
+public  class Wares
+{  public  static  void main(String[] args) 
+   {    Shoe a;
+        a=new Shoe();
+       System.out.println(a.getName(1));
+       System.out.println(a.getName(2));
+       System.out.println(a.getName(3));
+       System.out.println(a.getName(4));
+       Bread b;
+       b=new Bread();
+       System.out.println(b.getName(1));
+       System.out.println(b.getName(2));
+       System.out.println(b.getName(3));
+   }
+}
